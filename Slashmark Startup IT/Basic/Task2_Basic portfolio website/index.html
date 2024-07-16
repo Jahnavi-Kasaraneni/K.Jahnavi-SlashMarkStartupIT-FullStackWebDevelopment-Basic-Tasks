@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- THIS IS WHERE YOU SHOULD PUT THE TITLE OF YOUR WEBSITE -->
+  <title></title>
+<!--SOCIAL MEDIA PREVIEW IMAGE/CARD-->
+  <!--GENERAL CARD-->
+    <meta property="og:title" content="TITLE OF WEBSITE" />
+    <meta property="og:description" content="SHORT DESCRIPTION OF YOUR SITE GOES HERE"/>
+    <meta property="og:image" content="URL TO THE IMAGE YOU WANT TO USE"/>
+  <!--TWITTER PREVIEW CARD SPECIFIC INFORMATION-->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="TWITTER HANDLE LIKE @USER">
+    <meta name="twitter:creator" content="TWITTER HANDLE LIKE @USER">
+    <meta name="twitter:title" content="TITLE OF YOUR WEBSITE">
+    <meta name="twitter:description" content="SHORT DESCRIPTION OF YOUR SITE GOES HERE">
+    <meta name="twitter:image" content="URL FOR THE IMAGE YOU WANT TO USE">
+    <meta name="twitter:image:alt" content="ALT TEXT FOR THE IAMGE BEING USED GOES HERE">
+<!-- REFERENCES TO CSS FILES AND SCRIPTS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/navigation.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <script src="scripts/navigation.js"></script>
+</head>
+
+<body>
+
+<!--  HEADER -->
+<div>
+  <p id="title">
+    TITLE HERE
+  </p>
+  <p id="Subtitle">
+    Subtitle here
+  </p>
+</div>
+
+<!--DESKTOP NAVIGATION -->
+<div id="desktop" class="desktopnav">
+  <a href="index.html">ABOUT</a> |
+  <a href="gallery2.html">GALLERY</a> 
+</div>
+
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <p class="responsive">Logo</p>
+  <!-- Navigation links (hidden by default) -->
+  <div id="navlinks">
+    <a href="index.html">ABOUT</a>
+    <a href="gallery2.html">GALLERY</a>
+  </div>
+  <!-- HAMBURGER MENU/BAR ICON ICON -->
+  <a href="javascript:void(0);" class="icon" onclick="menuToggle()">
+    <i class="fa fa-bars" aria-hidden="true"></i>
+  </a>
+</div>
+
+<!--MAIN PAGE BODY-->
+<div id="body" style="width: 100%;float: left;overflow: hidden;">
+  <div id="intro" style="text-align: center;float: left;width: 100%;">
+<h1>HEADER FOR MAIN PAGE</h1>
+<p>This is where some introduction text can go to talk a bit about yourself.
+This is still in rough stages and will be updated.</p>
+  </div>
+  <div id="introimage" style="float: left;width: 100%; ">
+    <img src="images/sample1.png" style="display: block;margin-left: auto;margin-right: auto;">
+  </div>
+</div>
+
+<!-- FOOTER -->
+<div id="footer" style="width: 100%;text-align: center; background-color: green;padding: 10px 10px;float: left;">
+  FOOTER GOES HERE, GOOD FOR SOCIAL MEDIA LINKS OR GENERAL INFORMATION 
+</div>
+
+</body>
+</html>
